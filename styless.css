@@ -3,7 +3,7 @@ body{
     
     width: 1600px;
     height: 7335px;
-    margin: 0px 0px 140px 140px; ;
+    margin: 50px 50px 140px 140px; ;
     background: #FFF;
 }
 .banner1{
@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-blend-mode: multiply;
-    width: 1270px;
+    width: 1320px;
     height: 400px;
     color: #FFF;
     text-align: center;
@@ -59,3 +59,4 @@ body{
     margin-top: 48px;
     margin-bottom: 0px;
 }
+
