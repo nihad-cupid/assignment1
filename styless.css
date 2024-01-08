@@ -3,6 +3,7 @@ body{
     
     width: 1600px;
     height: 7335px;
+    margin: 0px 0px 140px 140px; ;
     background: #FFF;
 }
 .banner1{
@@ -29,9 +30,6 @@ body{
     font-size: 70px;
     font-weight: 900;
 }
-.main-off{
-    margin: 0px;
-}
 .off{
     color: #F00;
     text-align: center;
@@ -39,6 +37,10 @@ body{
     font-size: 88px;
     font-weight: 700;
     padding-top 120px;
+    margin-bottom: 0px ;
+.main-off{
+    margin: 0px;
+}
     
 }
 .off2{ 
@@ -48,9 +50,12 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-}
 .off3{
     font-size: 48px;
     font-weight: 700;
     color: #070211;
     }
+.hny{
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
