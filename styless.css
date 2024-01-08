@@ -1,28 +1,56 @@
 
 body{
-    margin: 50px 140px;
+    
     width: 1600px;
     height: 7335px;
+    background: #FFF;
 }
 .banner1{
-   
+    margin: 50px 140px;
     background-image: url(./resources/Banner\ Image.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-repeat: no-repeat;
     background-size: contain;
     background-blend-mode: multiply;
-    width: 1320px;
-    height: 600px;
+    width: 1270px;
+    height: 400px;
     color: #FFF;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 32px;  
     font-weight: 400;
    padding-top: 177px;
-   border-radius: 16px;
- 
+   border-radius: 16px; 
+   align-items: center;
+   
    
 }
 .banner2{
+    
     font-size: 70px;
     font-weight: 900;
 }
+.main-off{
+    margin: 0px;
+}
+.off{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    padding-top 120px;
+    
+}
+.off2{ 
+    margin-top: 48px;
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.off3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    }
