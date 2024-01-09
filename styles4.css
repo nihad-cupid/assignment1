@@ -122,7 +122,42 @@
     text-transform: capitalize;
     border-color: #F00;
     border-style: solid;
-    
 
+}
+footer{
+    width: 1600px;
+    height: 609px;
+    background-color:#070211;
+    margin-top: 120px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-left: 140px;
+    padding-right: 275px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+}
+.ic{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 640px;
+    display: flex;
+}
+.ni{
+    padding-right: 24px;
+}
+.final{
+    display: flex;
+    justify-content:space-between ;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 50x;
+    padding-left: 140px;
+    padding-right: 275px;
 
 }
