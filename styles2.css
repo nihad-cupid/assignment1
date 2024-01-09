@@ -1,9 +1,10 @@
 main{
     font-family: 'Inter', sans-serif;
 }
-.party{
-    margin: 120px 0 140px 140px; 
-    background-position: center;
+.main-party{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 140px; 
     background-image: url(./resources/Vectorrr.png), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-blend-mode: multiply;
     width: 1320px;
@@ -11,6 +12,11 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 16px; 
+}
+.party0{
+    position: relative;
+    padding-top: 68.12px;
+    padding-right: 161.58px;
 }
 .party1{
     color: #FFF;
@@ -79,9 +85,14 @@ main{
 }
 .come{
     display: flex;
-}
+    justify-content: space-around;
+    margin-right: 140px;
+    margin-top: 12px;
+    
 .come1{
+    padding-top: 100px;
     margin-left: 140px;
+    padding-right: 70px;
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -103,17 +114,41 @@ main{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
-    line-height: 32px;
 }
+
 .pic{
-    width: 463px;
-    height: 463px;
-    border-radius: 463px;
-    border: 15px solid #F00;
-    }
-.pic2{
+    margin-top: 0px;
     width: 364.844px;
     height: 364.844px;
-    border-radius: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49.8px;
+    }
+.year1{
+    padding-top: 100px;
+    padding-left: 118px;
+
+    }
+.year{
+    
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.wish{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.hy{
+    padding-top: 43px;
+    width: 140px;
+    height: 140px;
 
 }
+.sell{
+    
+    border: #F00 solid 5px;
+}
+   
